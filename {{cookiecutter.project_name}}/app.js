@@ -48,7 +48,7 @@ app.use(function(req, res, next) {
 app.use(methodOverride('_method'))
 
 const getPath = (path = '') => {
-  return '/test' + path
+  return '/kubecon-demo' + path
 }
 
 const getRedirectPath = path => {
