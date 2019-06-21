@@ -41,6 +41,7 @@ Resources:
             Properties:
               StageName: release
               HttpMethod: ANY
+              IntegratedResponse: true
 
 Globals:
   Function:
