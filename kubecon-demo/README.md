@@ -1,2 +1,0 @@
-# kubecon-demo
-kubecon demo
