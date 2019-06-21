@@ -52,7 +52,7 @@ const getPath = (path = '') => {
 }
 
 const getRedirectPath = path => {
-  return '/release/' + getPath(path)
+  return '/release' + getPath(path)
 }
 app.get(getPath('/'), function(req, res) {
   if (req.session.user) {
